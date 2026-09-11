@@ -1,3 +1,4 @@
+import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import type { ITechnologyType } from "./types/TechnologyType"
 
@@ -14,7 +15,7 @@ function App() {
       <div className="container mx-auto">
 
         <Navbar />
-
+        <Hero />
 
       </div>
 
